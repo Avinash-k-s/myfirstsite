@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- html tag, tells everyting inside this tag is htm code -->
+
+<head>
+  <!-- holds info on the web page and tells the browser how to handle the page  -->
+  <meta charset="utf-8">
+  <!-- Where we can include metadata, charset='utf-s' tells that all the text
+    is encoded using utf-8. utf-8 is the standard includes all symbols of all laungages, including emojis-->
+  <meta name='author' content='avinash_ks' />
+  <meta name='description' content="'Avinash's personal site" />
+  <!-- this is what search engines
+    display when giving a short description of the web site -->
+  <title>✯ Avinash's Personal Site</title>
+</head>
+
+<body>
+  <h1> Avinash KS </h1>
+  <img src="images/myimage.png" alt="my photo">
+  <!-- image source can be from local Computer or from internet. the 'alt' is used to display an alternative text in place of images
+if browser cannot render the image, alt can also be used in search engine optimization -->
+  <p>
+    <!-- paragraph tag, text inside gets grouped into the same paragraph Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
+    but HTML paragraphs can be any structural grouping of related content, such as images or form fields-->
+    <i>
+      <!-- i tag just italizes a part of text --> Network Engineer
+    </i> and budding <em>
+      <!--  em tag gives emphasis on certain part of document -->data scientist
+    </em>
+    , Specializes in <b>
+      <!-- b tag just makes text bold, physical state --> Artificial Intelligence
+    </b> and <strong>
+      <!-- strong tag gives emphasis, it is more of a logical state --> Machine Learning.
+    </strong>
+  </p>
+  <hr size='4' color='blue' noshade>
+  <p>I am an web developer and network engineer and I love dogs </p>
+  <hr>
+  <h3>Degree & Certifications:</h3>
+  <ul>
+    <!-- unordered list,  renders as bullet point 'li' tag contains each elemet of list-->
+    <li>BE in ECE</li>
+    <li><strong>CEH</strong></li>
+    <li>CCNA R&S</li>
+    <li>CCNA Sec</li>
+    <li>CCNP R&S</li>
+    <li> <strong>AI & ML</strong></li>
+    <li>Full Stack Web Development </li>
+    <ol type='i' start='3'>
+      <!-- i stands for roman numerals and start is for from which number to start the list -->
+      <li>Udemy</li>
+      <li>GUVI</li>
+    </ol>
+
+  </ul>
+  <hr>
+  <table border=4>
+    <!-- a html table, the border  = 4 pixels attribute is for giving a border to table, but is not used or depreciated
+      because we use CSS to style not htmp -->
+    <thead>
+      <!-- table head -->
+      <tr>
+        <!-- table row of table header -->
+        <th>Duration</th> <!-- first entry of table header -->
+        <th>Company</th> <!-- Second entry of table header -->
+        <th>Comments</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- first row of the table -->
+        <td>2012-2014</td> <!-- first entry of first row -->
+        <td>CenturyLink</td> <!-- second entry of first row -->
+      </tr>
+      <tr>
+        <!-- Second row of table -->
+        <td>2014-Present</td> <!-- first entry of second roe -->
+        <td>HPE</td> <!-- second entry of second row -->
+        <td> present </td> <!-- third entry of second row -->
+      </tr>
+
+    </tbody>
+    <tfoot>
+      <!-- table footer -->
+      <tr>
+        <td>abcd</td>
+      </tr>
+    </tfoot>
+
+  </table>
+  <!-- We seperate the table header, body and footer when we can just create everything as table using tr and td is that
+  we many want to syle different parts differently and there is no table columns, tables can also be used to control the layout-->
+  <!-- we can use tabls to format the elements, for example we can format the image and description at the beginning using tables -->
+  <hr>
+  <h2>Formatting using tables</h2>
+  <hr>
+  <table cellspacing=20>
+    <!-- cellspacing is used to give space betwwen the cells, here it's 20 pixels -->
+    <td><img src="images/myimage.png" alt="my photo"></td>
+    <td>
+      <h1> Avinash KS </h1>
+      <p>
+        <!-- paragraph tag, text inside gets grouped into the same paragraph Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation,
+       but HTML paragraphs can be any structural grouping of related content, such as images or form fields-->
+        <i>
+          <!-- i tag just italizes a part of text --> Network Engineer
+        </i> and budding <em>
+          <!--  em tag gives emphasis on certain part of document -->data scientist
+        </em>
+        , Specializes in <b>
+          <!-- b tag just makes text bold, physical state --> Artificial Intelligence
+        </b> and <strong>
+          <!-- strong tag gives emphasis, it is more of a logical state --> Machine Learning.
+        </strong>
+      </p>
+      <hr size='4' color='blue' noshade>
+      <p>I am an web developer and network engineer and I love dogs </p>
+    </td>
+  </table>
+
+  <h3>My Skills and their rating</h3>
+
+  <table cellspacing=20 border>
+    <td>
+      <table cellspacing=10>
+        <tr>
+          <td>Network</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table cellspacing=10>
+        <tr>
+          <td>Data Science</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>AI & ML</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+
+      </table>
+    </td>
+  </table>
+
+  <a href="C:\Users\ksavi\Documents\Udemy_webDev\WebDev\Personal Site\myhobbies.html"> My Hobbies</a>
+  <br>
+  <a href="https://in.linkedin.com/in/avinash-ks-a009ba62"> <strong> My linkedin Profile </strong></a>
+  <!-- anchor tag, href is an html attribute poinitng to a web page and
+    'My linkdin profile is text to display -->'
+  <br>
+  <a href="C:\Users\ksavi\Documents\Udemy_webDev\WebDev\Personal Site\contactme.html">Contact me</a>
+  <br>
+
+</body>
+
+</html>
